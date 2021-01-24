@@ -1,0 +1,10 @@
+canvas{
+    background: linear-gradient( black, grey); 
+}
+
+/* to resize canvas, we cannot put 'height: 100%; width: 100%;' using plain css.
+must use JavaScript to size canvas appropriately based on window size*/
+
+body{
+    margin: 0; /* body defaults to a nonzero margin value */
+}
